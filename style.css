@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #232323;
+    height: 100%;
+    width: 100%;
+}
+
+#time{
+    padding: 20px 25px;
+    font-size: 28px;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    background-color: #2196f3;
+    box-shadow: 0 0 10px #2196f3 , 0 0 120px #2196f3 , 0 0 40px #2196f3;
+    cursor: pointer;
+}
+
+#time:hover{
+    background-color: #6f6ff1;
+    box-shadow: 0 0 10px #6f6ff1 , 0 0 120px #6f6ff1 , 0 0 40px #6f6ff1;
+}
